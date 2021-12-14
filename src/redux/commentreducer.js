@@ -1,3 +1,5 @@
+
+
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
@@ -15,7 +17,9 @@ export const comment = createSlice({
     remove: (state) => {
       state.mainvalue = prompt()
     },
-   
+    addCommint: (state, action) => {
+      state.mainvalue = action.payload
+    }
   },
 })
 
