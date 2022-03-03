@@ -1,16 +1,19 @@
-// import Count from './comp/count';
-// import Product2 from './comp/product2'
-// import Product from './comp/product'
-// import Maincart from './comp/maincart';
-// import Page from './comp/page';
-// import Comment from './comp/comment'
-import Box from './comp/boc'
+import Count from './comp/count';
+import Product2 from './comp/product2'
+import Product from './comp/product'
+import Maincart from './comp/maincart';
+import Page from './comp/page';
+import Comment from './comp/comment'
+// import Box from './comp/boc'
+// import Test from './comp/test'
+
+
 function App() {
   return (
     <div style={{alignItem:"center"}}>
-
-      <Box/>
-      {/* <Maincart/>
+      {/* <Test/>
+      <Box/> */}
+      <Maincart/>
       <hr/>
       <Comment/>
       <hr/>
@@ -20,7 +23,7 @@ function App() {
       <hr/>
       <Product2/>
       <hr/>
-      <Page/> */}
+      <Page/>
  
     </div>
   );
